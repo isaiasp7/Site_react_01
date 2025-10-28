@@ -6,7 +6,7 @@ Esse projeto juntará não só a aplicação desenvolvida durante o estudo de re
 # 1. O que é o React ?
   React é uma biblioteca voltada para criação de **Interfaces de Usuários Interativas** com o diferencial de ser possível fazer reaproveitamento de componentes. Esses componentes podem ser entendidos como funções JavaScript. O react atualiza suas páginas com algo chamado ***Single Page Application***. Então podemos enchergas as páginas desenvolvidas  pelo react como um grande quebra cabeça onde as peças são os componentes que podem ser reapreveitados a qualquer momento e em qualquer local.
 
-  <img src="img_readme/.temp-12-47-17-image_upscayl_2x_upscayl-standard-4x.png" width="550" height="450" />
+  <img src="img_readme/.temp-12-47-17-image_upscayl_2x_upscayl-standard-4x.png"/>
 
 
 
