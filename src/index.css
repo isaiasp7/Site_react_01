@@ -1,0 +1,26 @@
+/* Reset básico para remover margens e paddings padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Opcional: facilita cálculos de largura/altura */
+}
+
+/* Estilos globais para body */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; /* Exemplo: fonte padrão */
+  background-color: #fff; /* Exemplo: fundo branco */
+}
+
+/* Outros resets comuns */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
