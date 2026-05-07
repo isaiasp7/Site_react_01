@@ -1,7 +1,26 @@
 
 .containerC {
-  background-color: rgb(255, 0, 212);
   width: 100vw; /* viewport width */
   height: 10vh;
+  background-color: aliceblue;
+}
+.C{
+  width: 100%;
+
+  display: flex;
+
 
 }
+.Cc{
+
+  background-color: #041133;
+}
+.Cd{
+
+  background-color: #123aa0;
+}
+.Ce{
+
+  background-color: #18ada1;
+}
+

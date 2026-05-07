@@ -6,6 +6,8 @@ Esse projeto juntará não só a aplicação desenvolvida durante o estudo de re
 # 1. O que é o React ?
   React é uma biblioteca voltada para criação de **Interfaces de Usuários Interativas** com o diferencial de ser possível fazer reaproveitamento de componentes. Esses componentes podem ser entendidos como funções JavaScript. O react atualiza suas páginas com algo chamado ***Single Page Application***. Então podemos enchergas as páginas desenvolvidas  pelo react como um grande quebra cabeça onde as peças são os componentes que podem ser reapreveitados a qualquer momento e em qualquer local.
 
+  Temos dois tipos de componentes, sendo eles baseados em **Classe** e baseados em **Funções**
+
 ![Representação de um quebra-cabeça](./img_readme/temp-12-47-17-image_upscayl_2x_upscayl-standard-4x.png)
 
 
@@ -17,8 +19,23 @@ Esse projeto juntará não só a aplicação desenvolvida durante o estudo de re
     Os React Server Components (RSC) são uma forma de renderizar parte da interface diretamente no servidor, antes de enviar o resultado ao navegador.
     Isso significa que nem todo o código React precisa rodar no cliente (navegador) — parte dele pode ser executada no servidor, economizando processamento, tempo e dados.
 
-> 1.3
-    State(Estado) 
+
+> 1.3  UseState — O cérebro do componente
+
+    O que é:
+    useState é uma hook (função especial do React) que guarda informações que podem mudar ao longo do tempo.
+    Quando esse valor muda, o React automaticamente re-renderiza o componente com o novo valor.
+
+    Como pensar:
+    Imagine o state como uma variável viva — cada vez que ela muda, o React redesenha o que depende dela.
+
+    Sintaxe:State(Estado) 
+    * const [valor, setValor] = useState(valorInicial);
+
+    Funcionamento lógico:
+
+    - valor → o dado atual.
+    - setValor() → função que muda esse dado.
 
 > 1.4 
     Prosp
@@ -44,6 +61,8 @@ Processo Adotado para criação do projeto :
     - React
     - Js
  * Iniciar o server Vite: npm run dev
+
+
 
 
 ===========================================================

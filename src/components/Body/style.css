@@ -1,12 +1,119 @@
-
 .containerB{
 
-  background-color: rgb(43, 97, 168);
-  width: 100vw; /* viewport width */
-  height: 50vh;
-  top: 200px;
+  width: 100dvw; /* viewport width */
+  height: 250dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
 
 }
 
+.img_principal{
+
+  background-color: aliceblue;
+  width: 100dvw;
+  height: 60dvh;
+ 
+}
+
+.h1{
+
+  font-size: 32px;
+  height: 50px;
+
+  background-color: black;
+  color: aliceblue;
+  font-family: "Ephesis", cursive;
+  text-align: center;
+  z-index: 1;
+  font-style: normal;
+   width: 100dvw;
+ 
+
+}
+.h1-background{
+  position: absolute;
+  top: 568px;
+  background-color: #d11362;
+  height: 60px;
+  width: 100dvw;
+  transform: rotate(-1.6deg) ;
+
+}
+
+.Bc{
+  background-color: aqua;
+  width: 100dvW;
+  height: 60dvh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Bd{
+  background-color: rgb(209, 19, 98);
+  width: 100%;
+  height: 60dvh;
+}
+.Be{
+  background-color: rgb(223, 201, 10);
+  width: 100%;
+   height: 60dvh;
+}
 
 
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+
+.card>img{
+  width: 500px;
+  height: 270px;
+  transition: 150ms ease-in-out;
+  transform: scale(0.8);
+}
+.card>img:hover{
+  transform: scale(1);
+}
+.card>.text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  text-align: center;
+  height:40px;
+
+
+}
+/*@media screen and (max-width:767px) {
+  .h1-background{
+  position: absolute;
+  background-color: #520f4e;
+  }
+  .Bc{
+  background-color: aqua;
+  width: 100dvW;
+  height: 80dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+}
+
+ Tablet
+ 768 px - 1023px
+
+ Laptop    Desktop
+ 1024px -  1440px*/

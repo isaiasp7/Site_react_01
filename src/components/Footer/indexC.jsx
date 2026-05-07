@@ -3,9 +3,10 @@ import './style.css'
 const Footer= () => {
   return (
     <div className="containerC">
-      <div className="B">
-        <div className="Bb"></div>
-        <div className="Bc"></div>
+      <div className="C">
+        <div className="Cc"></div>
+        <div className="Cd"></div>
+        <div className="Ce"></div>
       </div>
     </div>
   );

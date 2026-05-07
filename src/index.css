@@ -3,13 +3,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; /* Opcional: facilita cálculos de largura/altura */
+
 }
 
 /* Estilos globais para body */
 body {
   margin: 0;
   font-family: Arial, sans-serif; /* Exemplo: fonte padrão */
-  background-color: #fff; /* Exemplo: fundo branco */
+background-color: black;
 }
 
 /* Outros resets comuns */
